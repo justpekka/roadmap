@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage - Pekka</title>
+    <title>Homepage</title>
     <link rel="shortcut icon" href="../../favicon.svg" type="image/svg+xml">
     <!-- Google meta tags -->
         <meta name="description" content="Welcome to my homepage.">
@@ -17,23 +17,23 @@
         <meta property="og:locale" content="id_ID">
     <!-- End of OG meta tags -->
 </head>
-<body>
+<body style="max-width: 800px; margin: 0 auto; border: 1px solid #efefef; padding: 0 1em;">
     <header>
         <nav>
-            <div class="left-side"><img src="../../favicon.svg" alt="Singlar - helmet" height="200px"> Pekka</div>
+            <div class="left-side"><img src="./../favicon.svg" alt="Singlar - helmet"> Pekka</div>
             <div class="right-side">
                 <a href="./#">Homepage</a>
                 <a href="./projects.html">Projects</a>
                 <a href="./articles.html">Articles</a>
                 <a href="./contact.html">Contact</a>
         </nav>
-        <section id="main-banner">
+        <section id="main-banner" style="height: 200px;">
             <h1><center>Front-End Developer</center></h1>
             <p><center>My Homepage</center></p>
         </section>
     </header>
     <main>
-        <section>
+        <section style="display: flex; flex-wrap: nowrap; gap:calc(1em * 2); justify-content: space-around;">
             <div id="projects">
                 <h3>Projects</h3>
                 <ul>
@@ -82,7 +82,7 @@
 
         <section id="reviews">
             <h3>Reviews from my Teachers</h3>
-            <div class="bubble-parent">
+            <div class="bubble-parent" style="display: flex; flex-wrap: nowrap; gap: calc(1em * 2); justify-content: space-around;">
                 <div class="bubble">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nemo nisi doloremque non aut iure, hic eum dignissimos quaerat voluptate ipsa perspiciatis consequuntur veniam rerum praesentium voluptatum provident corrupti quae!</p>
                     <p>John Doe</p>
